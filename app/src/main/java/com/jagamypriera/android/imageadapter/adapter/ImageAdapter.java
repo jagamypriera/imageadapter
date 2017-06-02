@@ -93,7 +93,7 @@ public class ImageAdapter extends PagerAdapter {
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
-        container.removeView((ImageView) object);
+        container.removeView((View) object);
     }
     private class ClickLister implements View.OnClickListener{
         public ClickLister() {}
